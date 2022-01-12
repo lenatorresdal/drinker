@@ -1,6 +1,7 @@
 <script>
   export let title = "";
   export let ingredients = [];
+  export let instructions = "";
 </script>
 
 <div class="tile">
@@ -10,6 +11,7 @@
       <li>{i}</li>
     {/each}
   </ul>
+  <p>{instructions}</p>
 </div>
 
 <style type="text/scss">
@@ -22,7 +24,7 @@
   }
 
   .tile {
-    max-width: 20rem;
+    width: 17rem;
     justify-content: center;
     align-items: center;
     background-color: $light-green;

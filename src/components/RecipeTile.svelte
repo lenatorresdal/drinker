@@ -1,27 +1,37 @@
 <script>
-    export let title = "";
-    export let ingredients = [];
+  export let title = "";
+  export let ingredients = [];
 </script>
 
 <div class="tile">
-    <h1>{title}</h1>
-    <ul>
-        {#each ingredients as i}
-            <li>{i}</li>
-        {/each}
-    </ul>
+  <div class="recipeHeader">{title}</div>
+  <ul>
+    {#each ingredients as i}
+      <li>{i}</li>
+    {/each}
+  </ul>
 </div>
 
-<style>
-    ul {
-        text-align: left;
-        list-style: none;
-    }
+<style type="text/scss">
+  @import "../styles.scss";
 
-    .tile {
-        width: 500px;
-        justify-content: center;
-        align-items: center;
-        background-color: bisque;
-    }
+  ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }
+
+  .tile {
+    max-width: 20rem;
+    justify-content: center;
+    align-items: center;
+    background-color: $light-green;
+    margin: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  .recipeHeader {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
 </style>

@@ -3,3 +3,23 @@ $cream: #f3f8f2;
 $blue: #3581b8;
 $orange: #fcb07e;
 $light-green: #dee2d6;
+
+h1 {
+  text-align: center;
+  color: $blue;
+  text-transform: uppercase;
+  font-size: 2.75rem;
+  font-weight: 100;
+}
+
+main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 640px) {
+  main {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}

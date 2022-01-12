@@ -3,7 +3,7 @@ var ghpages = require('gh-pages');
 ghpages.publish(
     'public', // path to public directory
     {
-        branch: 'main',
+        branch: 'gh-pages',
         repo: 'git@github.com:lenatorresdal/drinks.git', // Update to point to your repository  
         user: {
             name: 'Lena Tørresdal', // update to use your name

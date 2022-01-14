@@ -6,7 +6,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
-    "deploy": "gh-pages -d public"
+    "deploy": "rollup -c && echo 'drinker.knusk.eu' > ./public/CNAME && gh-pages -d public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",

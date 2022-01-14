@@ -7,7 +7,7 @@ const recipes = [
   {
     title: "Aviation",
     ingredients: [
-      "1 1/5 oz Gin",
+      "1 1/2 oz Gin",
       "3/4 oz Sitronjuice",
       "3/8 oz Luxardo Maraschino",
       "3/8 oz Sukkerlake",
@@ -26,7 +26,7 @@ const recipes = [
       "Knust is",
     ],
     instructions:
-      "Mudle lime, sukker og mynteblader. Ha i rom. Fyll glasset med knust is, rør og topp med farris, limebåt og mynteblader.",
+      "Mudle lime, sukker og mynteblader i et glass. Ha i rom. Fyll glasset med knust is, rør og topp med farris, limebåt og mynteblader.",
   },
   {
     title: "White Russian",
@@ -39,11 +39,48 @@ const recipes = [
     ingredients: [
       "4 Skiver lime (ca 1/2 lime)",
       "2 ts sukker",
-      "4 cl Cachaca",
+      "4 cl Cachaça",
       "Knust is",
     ],
     instructions:
-      "Mudle lime, sukker og Cachaca. Fyll glasset med knust is, rør og topp med limebåt.",
+      "Mudle lime, sukker og Cachaça i et glass. Fyll glasset med knust is, rør og topp med limebåt.",
+  },
+  {
+    title: "Norwegian Voyage",
+    ingredients: [
+      "2 cl Hylleblomstlikør",
+      "2 cl Akevitt",
+      "2 cl Sitronjuice",
+      "1 cl Sukkerlake",
+      "1 dash Angostura bitter",
+      "Eplemost",
+    ],
+    instructions:
+      "Shake med is og sil oppi et glass fylt med isbiter. Topp med eplemost og en sitronskive.",
+  },
+  {
+    title: "Whiskey Amaretto Sour",
+    ingredients: [
+      "1 cl Amaretto",
+      "3 cl Whiskey",
+      "2 cl Sitronjuice",
+      "1 cl Sukkerlake",
+      "2 cl Eggehvite",
+      "1 dash Angostura Bitter",
+    ],
+    instructions:
+      "Shake eggehvite for seg selv, uten is. Ha oppi resten av ingrediensene unntatt Angostura Bitter i shakeren, og shake med is. Sil over i et glass med isbiter og ha oppi en dash Angostura Bitter.",
+  },
+  {
+    title: "Dark 'n Stormy",
+    ingredients: [
+      "4 cl Mørk rom",
+      "Saften av en halv lime (ca 2 cl)",
+      "1 ts Brunt sukker",
+      "Ingefærøl (ikke brus)",
+    ],
+    instructions:
+      "Ha rom, lime og brunt sukker i et glass og rør til sukkeret er oppløst. Fyll glasset med isbiter og topp med ingefærøl.",
   },
 ];
 
